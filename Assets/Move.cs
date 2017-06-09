@@ -13,5 +13,6 @@ public class Move : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		transform.position += transform.rotation*(direction.normalized*speed*Time.deltaTime);
+		//buttholes
 	}
 }
